@@ -33,7 +33,7 @@ class Greetings(App):
         self.window.add_widget(self.user)
 
         #button widget
-        self.button = Button(text="PRESS KARO",
+        self.button = Button(text="PRESS",
                              size_hint = (1,0.5),
                              bold = True,
                              background_color = "860556" 
@@ -46,7 +46,7 @@ class Greetings(App):
         return self.window
     
     def callback(self, instance):
-        self.greeting.text = "NEE POI CHAAV"
+        self.greeting.text = "GET RICKED"
     def play_sound(self, instance):
         sound = SoundLoader.load("sugamalle.mp3")
         if sound:
